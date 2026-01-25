@@ -15,11 +15,11 @@ alert(`name: ${name} , Email: ${Email}, password: ${password}`)
             <h1>Hello</h1>
 
             <form  onSubmit={handle}>
-                <input tyep="text" value={name} onChange={(e)=> setName(e.target.value)} placeholder="Enter your name"></input>
+                <input type="text" value={name} onChange={(e)=> setName(e.target.value)} placeholder="Enter your name"></input>
                 <br></br>
-                <input tyep="text"  value = {Email} onChange={(e)=> setEmail(e.target.value)} placeholder="Enter your Email"></input>
+                <input type="text"  value = {Email} onChange={(e)=> setEmail(e.target.value)} placeholder="Enter your Email"></input>
                 <br />
-                <input tyep="text"  value = {password} onChange={(e)=> setPassword(e.target.value)} placeholder="Enter your password"></input>
+                <input type="text"  value = {password} onChange={(e)=> setPassword(e.target.value)} placeholder="Enter your password"></input>
                 <br />
                 <button  type = "submit" >Submit</button>
 
